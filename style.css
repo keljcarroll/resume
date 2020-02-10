@@ -1,5 +1,6 @@
 body{font-family: 'Noto Sans JP', sans-serif;
-	text-align: center;}
+	text-align: center;
+	background-color: #f0f0f5}
 h1 {font-family: 'Noto Sans JP', sans-serif;
 	font-weight: 900;
 	color: #6600cc;
@@ -8,8 +9,8 @@ h2 {text-align: center;
 	color: #9966ff;}
 div {text-align: left;}
 ul{list-style-type: square;}
-a:hover {
-  color: orange;}
+a:hover {color: orange;}
+
 
 
 
