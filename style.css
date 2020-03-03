@@ -1,20 +1,115 @@
+
+
 body{font-family: 'Noto Sans JP', sans-serif;
 	text-align: center;
-	background-color: #f0f0f5}
+	background-color: #e6f2ff}
 h1 {font-family: 'Noto Sans JP', sans-serif;
 	font-weight: 900;
-	color: #6600cc;
+	color: #00264d;
 	text-align: center;}
 h2 {text-align: center;
-	color: #9966ff;}
+	color: #00264d;}
 div {text-align: left;}
 ul{list-style-type: square;}
 a:hover {color: orange;}
 
+#main {
+	display: grid;
+	grid-template-rows: [header-start] .5fr; 
+	grid-template-columns: repeat(2, 1fr); 
+	grid-template-areas: 
+	"header header" 
+	"contact contact" 
+	"contact-pic contact1"
+	"experience experience"
+	"experience1 experience2"
+	"education education"
+	"education1 education2"
+	"skills skills"
+	"skills1 skills2"
+	"languages languages"
+	"languages1 languages1";
+	}
 
 
+			header { grid-area: header;}
+			#contact { grid-area: contact;}
+			#contact-pic { grid-area: contact-pic; }
+			#contact1 { grid-area: contact1; }
+			#experience { grid-area: experience; }
+			#experience1 {grid-area: experience1 }
+			#experience2 {grid-area: experience2}
+			#education {grid-area: education}
+			#education1 {grid-area: education1}
+			#education2 {grid-area: education2}
+			#skills {grid-area: skills}
+			#skills1 {grid-area: skills1}
+			#skills2 {grid-area: skills2}
+			#languages {grid-area: languages}
+			#languages1 {grid-area: languages1}
+
+		header{
+			text-align: center;
+		}
 
 
+		#contact, #experience, #education, #skills, #languages {
+			background-color:  #ffffff;
+			padding: 3px;
+							}
 
+		#contact-pic {
+			border-right: 3px solid  #ffffff;
+			padding: 10px;
+			margin-right: 5px;
+								}
+
+		#contact1 {
+			border-left: 3px solid  #ffffff;
+			margin-left: 5px;
+			padding: 10px;
+							}
+
+		#experience1{
+			border-right: 3px solid  #ffffff;
+			padding: 10px;
+			margin-right: 5px;
+								}
+
+		#experience2{
+			border-left: 3px solid  #ffffff;
+			margin-left: 5px;
+			padding: 10px;
+		}
+
+		#education1{
+			border-right: 3px solid  #ffffff;
+			padding: 10px;
+			margin-right: 5px;
+		}
+
+		#education2{
+			border-left: 3px solid  #ffffff;
+			margin-left: 5px;
+			padding: 10px;
+		}
+
+		#skills1{
+			border-right: 3px solid  #ffffff;
+			padding: 10px;
+			margin-right: 5px;
+		}
+
+		#skills2{
+			border-left: 3px solid  #ffffff;
+			margin-left: 5px;
+			padding: 10px;
+		}
+
+		#languages1{
+			border-right: 3px solid  #ffffff;
+			padding: 10px;
+			margin-right: 5px;
+		}
 
 
